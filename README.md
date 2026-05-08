@@ -55,6 +55,18 @@ The public repo keeps the workflow and lightweight indexes. It does not ship the
 
 WTF UFO is designed to be run by an agent.
 
+Install the skill with `npx`:
+
+```bash
+npx --yes github:timfaner/wtf-ufo
+```
+
+That copies the skill into:
+
+```text
+~/.codex/skills/wtf-ufo
+```
+
 Paste this into Codex or another coding agent inside the repo:
 
 ```text
@@ -64,11 +76,10 @@ Run the full UFO extraction workflow and validate with skills/wtf-ufo/scripts/va
 Do not commit raw PDFs, OCR text payloads, extracted images, or full cleaned corpora.
 ```
 
-To install the skill into your local Codex skill directory:
+To install to a custom directory:
 
 ```bash
-mkdir -p ~/.codex/skills/wtf-ufo
-cp -R skills/wtf-ufo/. ~/.codex/skills/wtf-ufo/
+npx --yes github:timfaner/wtf-ufo -- --target /path/to/skills/wtf-ufo
 ```
 
 The skill includes:

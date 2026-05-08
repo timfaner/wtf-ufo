@@ -1,11 +1,15 @@
 {
-  "name": "ufo-archive-extraction",
+  "name": "wtf-ufo",
   "version": "0.1.0",
   "private": true,
   "type": "module",
+  "bin": {
+    "wtf-ufo": "bin/install-skill.mjs"
+  },
   "scripts": {
     "download": "node scripts/download_with_playwright.mjs",
-    "graph:view": "python3 scripts/build_graph_view.py"
+    "graph:view": "python3 scripts/build_graph_view.py",
+    "install:skill": "node bin/install-skill.mjs"
   },
   "dependencies": {
     "playwright": "^1.57.0"
