@@ -58,7 +58,7 @@ WTF UFO is designed to be run by an agent.
 Install the skill with `npx`:
 
 ```bash
-npx --yes github:timfaner/wtf-ufo
+npx --yes --package github:timfaner/wtf-ufo wtf-ufo
 ```
 
 That copies the skill into:
@@ -79,7 +79,7 @@ Do not commit raw PDFs, OCR text payloads, extracted images, or full cleaned cor
 To install to a custom directory:
 
 ```bash
-npx --yes github:timfaner/wtf-ufo -- --target /path/to/skills/wtf-ufo
+npx --yes --package github:timfaner/wtf-ufo wtf-ufo --target /path/to/skills/wtf-ufo
 ```
 
 The skill includes:
