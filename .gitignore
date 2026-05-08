@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+.DS_Store
+node_modules/
+
+# Browser/MCP scratch captures.
+download-test-*.json
+uap-csv-fetch.json
+ufo-dom-buttons-links.json
+ufo-page-scripts.json
+
+# Downloaded source files and large extracted image payloads can be rebuilt.
+data/raw/
+data/extracted/*
+!data/extracted/.gitkeep
+
+# Rebuildable text/OCR corpora are useful locally but too large/noisy for the
+# default GitHub repository. Keep summaries, manifests, and graph artifacts.
+data/curated/*
+!data/curated/summary.md
+data/graph/*.png
+.vercel

@@ -1,0 +1,904 @@
+{
+  "generated_at": "2026-05-08T15:00:33.739Z",
+  "results": [
+    {
+      "id": "release01-0001",
+      "status": "exists",
+      "bytes": 106167501,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_10.pdf"
+    },
+    {
+      "id": "release01-0002",
+      "status": "exists",
+      "bytes": 118380300,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_2.pdf"
+    },
+    {
+      "id": "release01-0003",
+      "status": "exists",
+      "bytes": 50907255,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_3.pdf"
+    },
+    {
+      "id": "release01-0004",
+      "status": "exists",
+      "bytes": 92073029,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_4.pdf"
+    },
+    {
+      "id": "release01-0005",
+      "status": "exists",
+      "bytes": 58041955,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_5.pdf"
+    },
+    {
+      "id": "release01-0006",
+      "status": "exists",
+      "bytes": 548326302,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_6.pdf"
+    },
+    {
+      "id": "release01-0007",
+      "status": "exists",
+      "bytes": 62687106,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_7.pdf"
+    },
+    {
+      "id": "release01-0008",
+      "status": "exists",
+      "bytes": 91452111,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_9.pdf"
+    },
+    {
+      "id": "release01-0009",
+      "status": "exists",
+      "bytes": 106690293,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_serial_130.pdf"
+    },
+    {
+      "id": "release01-0010",
+      "status": "exists",
+      "bytes": 5546075,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_serial_153.pdf"
+    },
+    {
+      "id": "release01-0011",
+      "status": "exists",
+      "bytes": 30938461,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_serial_164.pdf"
+    },
+    {
+      "id": "release01-0012",
+      "status": "exists",
+      "bytes": 10422356,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_serial_220.pdf"
+    },
+    {
+      "id": "release01-0013",
+      "status": "exists",
+      "bytes": 5745008,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_serial_403.pdf"
+    },
+    {
+      "id": "release01-0014",
+      "status": "exists",
+      "bytes": 15143657,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_serial_438.pdf"
+    },
+    {
+      "id": "release01-0015",
+      "status": "exists",
+      "bytes": 16301814,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_serial_449.pdf"
+    },
+    {
+      "id": "release01-0016",
+      "status": "exists",
+      "bytes": 66987043,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_sub_a.pdf"
+    },
+    {
+      "id": "release01-0017",
+      "status": "exists",
+      "bytes": 67404025,
+      "path": "data/raw/pdfs/18_100754_ general 1946-7_vol_2.pdf"
+    },
+    {
+      "id": "release01-0018",
+      "status": "exists",
+      "bytes": 67372153,
+      "path": "data/raw/pdfs/18_6369445_general_1948_vol_1.pdf"
+    },
+    {
+      "id": "release01-0019",
+      "status": "exists",
+      "bytes": 33457869,
+      "path": "data/raw/pdfs/255_413270_ufo's_and_defense_what_should_we_prepare_for.pdf"
+    },
+    {
+      "id": "release01-0020",
+      "status": "exists",
+      "bytes": 328211,
+      "path": "data/raw/pdfs/255_t_763_r1b_transcripts.pdf"
+    },
+    {
+      "id": "release01-0022",
+      "status": "exists",
+      "bytes": 18301296,
+      "path": "data/raw/pdfs/331_120752_numeric_files_1944–1945_37153_german_armament_equipment_documents.pdf"
+    },
+    {
+      "id": "release01-0023",
+      "status": "exists",
+      "bytes": 9888054,
+      "path": "data/raw/pdfs/341_110448_records_relating_to_the_collection_and_dissemination_of_intelligence_1948-1955-ts_cont_no.2_2-5300-2-5399.pdf"
+    },
+    {
+      "id": "release01-0024",
+      "status": "exists",
+      "bytes": 57343984,
+      "path": "data/raw/pdfs/341_110677_numerical_file_5-2500.pdf"
+    },
+    {
+      "id": "release01-0025",
+      "status": "exists",
+      "bytes": 123596470,
+      "path": "data/raw/pdfs/342_hs1-416511228_box186_319.1-flying-discs-1949.pdf"
+    },
+    {
+      "id": "release01-0026",
+      "status": "exists",
+      "bytes": 242733260,
+      "path": "data/raw/pdfs/38_143685_box7_incident_summaries_101-172.pdf"
+    },
+    {
+      "id": "release01-0027",
+      "status": "exists",
+      "bytes": 49382924,
+      "path": "data/raw/pdfs/38_143685_box7_incident_summaries_173-233.pdf"
+    },
+    {
+      "id": "release01-0028",
+      "status": "downloaded",
+      "bytes": 247087612,
+      "path": "data/raw/pdfs/38_143685_box7_incident_summaries_1-100.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0029",
+      "status": "downloaded",
+      "bytes": 1598931,
+      "path": "data/raw/pdfs/59_214434_sp_16_[7.18.1963].pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0030",
+      "status": "downloaded",
+      "bytes": 1598931,
+      "path": "data/raw/pdfs/59_214434_sp_16_7.18.1963.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0031",
+      "status": "downloaded",
+      "bytes": 677153,
+      "path": "data/raw/pdfs/65_hs1-101634279_100-de-18221_serial_844.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0032",
+      "status": "downloaded",
+      "bytes": 12990300,
+      "path": "data/raw/pdfs/65_hs1-101634279_100-de-26505.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0033",
+      "status": "downloaded",
+      "bytes": 108961866,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_1.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0034",
+      "status": "downloaded",
+      "bytes": 120391107,
+      "path": "data/raw/pdfs/65_hs1-834228961_62-hq-83894_section_8.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0035",
+      "status": "downloaded",
+      "bytes": 663290,
+      "path": "data/raw/pdfs/dow-uap-d10-mission-report-middle-east-may-2022.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0036",
+      "status": "downloaded",
+      "bytes": 670302,
+      "path": "data/raw/pdfs/dow-uap-d12-mission-report-iraq-may-2022.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0037",
+      "status": "downloaded",
+      "bytes": 7463660,
+      "path": "data/raw/pdfs/dow-uap-d14-mission-report-iraq-may-2022.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0038",
+      "status": "downloaded",
+      "bytes": 6999240,
+      "path": "data/raw/pdfs/dow-uap-d16-mission-report-syria-july-2022.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0039",
+      "status": "downloaded",
+      "bytes": 3673697,
+      "path": "data/raw/pdfs/dow-uap-d18-mission-report-iraq-december-2022.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0040",
+      "status": "downloaded",
+      "bytes": 5885305,
+      "path": "data/raw/pdfs/dow-uap-d19-mission-report-syria-february-21-2023.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0041",
+      "status": "downloaded",
+      "bytes": 3698245,
+      "path": "data/raw/pdfs/dow-uap-d20-mission-report-southern-united-states-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0042",
+      "status": "downloaded",
+      "bytes": 1324277,
+      "path": "data/raw/pdfs/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0043",
+      "status": "exists",
+      "bytes": 1324277,
+      "path": "data/raw/pdfs/dow-uap-d23-mission-report-united-arab-emirates-october-2023.pdf"
+    },
+    {
+      "id": "release01-0044",
+      "status": "downloaded",
+      "bytes": 680054,
+      "path": "data/raw/pdfs/dow-uap-d25-mission-report-greece-january-2024.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0045",
+      "status": "downloaded",
+      "bytes": 689226,
+      "path": "data/raw/pdfs/dow-uap-d27-mission-report-united-arab-emirates-october-2023.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0046",
+      "status": "downloaded",
+      "bytes": 633172,
+      "path": "data/raw/pdfs/dow-uap-d28-mission-report-east-china-sea-2024.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0047",
+      "status": "downloaded",
+      "bytes": 101111,
+      "path": "data/raw/pdfs/dow-uap-d3-mission-report-arabian-gulf-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0048",
+      "status": "downloaded",
+      "bytes": 651740,
+      "path": "data/raw/pdfs/dow-uap-d32-mission-report,-syria-october-2024.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0049",
+      "status": "exists",
+      "bytes": 651740,
+      "path": "data/raw/pdfs/dow-uap-d32-mission-report,-syria-october-2024.pdf"
+    },
+    {
+      "id": "release01-0050",
+      "status": "exists",
+      "bytes": 651740,
+      "path": "data/raw/pdfs/dow-uap-d32-mission-report,-syria-october-2024.pdf"
+    },
+    {
+      "id": "release01-0051",
+      "status": "downloaded",
+      "bytes": 897434,
+      "path": "data/raw/pdfs/dow-uap-d33-mission-report-greece-october-2023.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0052",
+      "status": "downloaded",
+      "bytes": 1415369,
+      "path": "data/raw/pdfs/dow-uap-d35-mission-report-greece-october-2023.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0053",
+      "status": "downloaded",
+      "bytes": 342668,
+      "path": "data/raw/pdfs/dow-uap-d38-range-fouler-debrief-middle-east-may-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0054",
+      "status": "downloaded",
+      "bytes": 29121,
+      "path": "data/raw/pdfs/dow-uap-d4-mission-report-arabian-gulf-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0055",
+      "status": "downloaded",
+      "bytes": 295621,
+      "path": "data/raw/pdfs/dow-uap-d42-range-fouler-debrief-japan-2023.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0056",
+      "status": "downloaded",
+      "bytes": 297873,
+      "path": "data/raw/pdfs/dow-uap-d44-range-fouler-arabian-sea-october-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0057",
+      "status": "downloaded",
+      "bytes": 22495083,
+      "path": "data/raw/pdfs/dow-uap-d48-report-september-1996.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0058",
+      "status": "downloaded",
+      "bytes": 9090715,
+      "path": "data/raw/pdfs/dow-uap-d49-launch-summary-february-2000.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0059",
+      "status": "downloaded",
+      "bytes": 30588,
+      "path": "data/raw/pdfs/dow-uap-d5-mission-report-arabian-gulf-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0060",
+      "status": "downloaded",
+      "bytes": 312451,
+      "path": "data/raw/pdfs/dow-uap-d50-email-correspondence-indopacom-april-2025.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0061",
+      "status": "downloaded",
+      "bytes": 76470,
+      "path": "data/raw/pdfs/dow-uap-d51-email-correspondence-pacific-time-zone-march-2023.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0062",
+      "status": "downloaded",
+      "bytes": 66874,
+      "path": "data/raw/pdfs/dow-uap-d52-email-correspondance-na-august-2024.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0063",
+      "status": "downloaded",
+      "bytes": 20095,
+      "path": "data/raw/pdfs/dow-uap-d54-mission-report-mediterranean-sea-na.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0064",
+      "status": "downloaded",
+      "bytes": 207227,
+      "path": "data/raw/pdfs/dow-uap-d55-mission-report-syria-november-2016.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0065",
+      "status": "downloaded",
+      "bytes": 1849972,
+      "path": "data/raw/pdfs/dow-uap-d56-range-fouler-debrief-arabian-sea-august-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0066",
+      "status": "downloaded",
+      "bytes": 295447,
+      "path": "data/raw/pdfs/dow-uap-d57-mission-report-gulf-of-aden-september-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0067",
+      "status": "downloaded",
+      "bytes": 301419,
+      "path": "data/raw/pdfs/dow-uap-d58-range-fouler-debrief-na-october-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0068",
+      "status": "downloaded",
+      "bytes": 26847,
+      "path": "data/raw/pdfs/dow-uap-d6-mission-report-arabian-gulf-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0069",
+      "status": "downloaded",
+      "bytes": 2412310,
+      "path": "data/raw/pdfs/dow-uap-d60-mission-report-persian-gulf-august-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0070",
+      "status": "exists",
+      "bytes": 877324,
+      "path": "data/raw/pdfs/dow-uap-d61-mission-report-persian-gulf-august-2020.pdf"
+    },
+    {
+      "id": "release01-0071",
+      "status": "downloaded",
+      "bytes": 1045437,
+      "path": "data/raw/pdfs/dow-uap-d62-mission-report-strait-of-hormuz-september-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0072",
+      "status": "downloaded",
+      "bytes": 3311583,
+      "path": "data/raw/pdfs/dow-uap-d63-mission-report-strait-of-hormuz-october-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0073",
+      "status": "downloaded",
+      "bytes": 860506,
+      "path": "data/raw/pdfs/dow-uap-d64-mission-report-iran-november-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0074",
+      "status": "downloaded",
+      "bytes": 3043075,
+      "path": "data/raw/pdfs/dow-uap-d65-mission-report-persian-gulf-july-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0075",
+      "status": "downloaded",
+      "bytes": 27337,
+      "path": "data/raw/pdfs/dow-uap-d7-mission-report-arabian-gulf-2020.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0076",
+      "status": "downloaded",
+      "bytes": 719044,
+      "path": "data/raw/pdfs/dow-uap-d74-mission-report-syria-november-2023.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0077",
+      "status": "downloaded",
+      "bytes": 792150,
+      "path": "data/raw/pdfs/dow-uap-d75-mission-report-gulf-of-aden-july-2024.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0078",
+      "status": "downloaded",
+      "bytes": 29154,
+      "path": "data/raw/pdfs/dow-uap-d8-mission-report-djibouti-2025.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0080",
+      "status": "downloaded",
+      "bytes": 2292342,
+      "path": "data/raw/pdfs/dow-uap-pr20.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0107",
+      "status": "downloaded",
+      "bytes": 94513,
+      "path": "data/raw/images/fbi-photo-a1.png",
+      "content_type": "image/png"
+    },
+    {
+      "id": "release01-0108",
+      "status": "downloaded",
+      "bytes": 98192,
+      "path": "data/raw/images/fbi-photo-a2.png",
+      "content_type": "image/png"
+    },
+    {
+      "id": "release01-0109",
+      "status": "downloaded",
+      "bytes": 94807,
+      "path": "data/raw/images/fbi-photo-a3.png",
+      "content_type": "image/png"
+    },
+    {
+      "id": "release01-0110",
+      "status": "downloaded",
+      "bytes": 96879,
+      "path": "data/raw/images/fbi-photo-a4.png",
+      "content_type": "image/png"
+    },
+    {
+      "id": "release01-0111",
+      "status": "downloaded",
+      "bytes": 89225,
+      "path": "data/raw/images/fbi-photo-a5.png",
+      "content_type": "image/png"
+    },
+    {
+      "id": "release01-0112",
+      "status": "downloaded",
+      "bytes": 80159,
+      "path": "data/raw/images/fbi-photo-a6.png",
+      "content_type": "image/png"
+    },
+    {
+      "id": "release01-0113",
+      "status": "downloaded",
+      "bytes": 88727,
+      "path": "data/raw/images/fbi-photo-a7.png",
+      "content_type": "image/png"
+    },
+    {
+      "id": "release01-0114",
+      "status": "downloaded",
+      "bytes": 87292,
+      "path": "data/raw/images/fbi-photo-a8.png",
+      "content_type": "image/png"
+    },
+    {
+      "id": "release01-0115",
+      "status": "downloaded",
+      "bytes": 613116,
+      "path": "data/raw/pdfs/fbi-photo-b1.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0116",
+      "status": "downloaded",
+      "bytes": 601748,
+      "path": "data/raw/pdfs/fbi-photo-b10.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0117",
+      "status": "downloaded",
+      "bytes": 582514,
+      "path": "data/raw/pdfs/fbi-photo-b11.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0118",
+      "status": "downloaded",
+      "bytes": 574722,
+      "path": "data/raw/pdfs/fbi-photo-b12.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0119",
+      "status": "downloaded",
+      "bytes": 434067,
+      "path": "data/raw/pdfs/fbi-photo-b13.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0120",
+      "status": "downloaded",
+      "bytes": 448290,
+      "path": "data/raw/pdfs/fbi-photo-b14.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0121",
+      "status": "downloaded",
+      "bytes": 427316,
+      "path": "data/raw/pdfs/fbi-photo-b15.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0122",
+      "status": "downloaded",
+      "bytes": 433987,
+      "path": "data/raw/pdfs/fbi-photo-b16.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0123",
+      "status": "downloaded",
+      "bytes": 435400,
+      "path": "data/raw/pdfs/fbi-photo-b17.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0124",
+      "status": "downloaded",
+      "bytes": 429941,
+      "path": "data/raw/pdfs/fbi-photo-b18.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0125",
+      "status": "downloaded",
+      "bytes": 600310,
+      "path": "data/raw/pdfs/fbi-photo-b19.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0126",
+      "status": "downloaded",
+      "bytes": 583544,
+      "path": "data/raw/pdfs/fbi-photo-b2.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0127",
+      "status": "downloaded",
+      "bytes": 577784,
+      "path": "data/raw/pdfs/fbi-photo-b20.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0128",
+      "status": "downloaded",
+      "bytes": 592551,
+      "path": "data/raw/pdfs/fbi-photo-b21.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0129",
+      "status": "downloaded",
+      "bytes": 434482,
+      "path": "data/raw/pdfs/fbi-photo-b22.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0130",
+      "status": "downloaded",
+      "bytes": 423857,
+      "path": "data/raw/pdfs/fbi-photo-b23.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0131",
+      "status": "downloaded",
+      "bytes": 440280,
+      "path": "data/raw/pdfs/fbi-photo-b24.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0132",
+      "status": "downloaded",
+      "bytes": 167999,
+      "path": "data/raw/pdfs/fbi-photo-b3.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0133",
+      "status": "downloaded",
+      "bytes": 593683,
+      "path": "data/raw/pdfs/fbi-photo-b4.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0134",
+      "status": "downloaded",
+      "bytes": 580719,
+      "path": "data/raw/pdfs/fbi-photo-b5.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0135",
+      "status": "downloaded",
+      "bytes": 608164,
+      "path": "data/raw/pdfs/fbi-photo-b6.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0136",
+      "status": "downloaded",
+      "bytes": 607218,
+      "path": "data/raw/pdfs/fbi-photo-b7.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0137",
+      "status": "downloaded",
+      "bytes": 585686,
+      "path": "data/raw/pdfs/fbi-photo-b8.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0138",
+      "status": "downloaded",
+      "bytes": 588086,
+      "path": "data/raw/pdfs/fbi-photo-b9.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0139",
+      "status": "exists",
+      "bytes": 1030644,
+      "path": "data/raw/pdfs/nasa-uap-d1-apollo-12-transcript-1969.pdf"
+    },
+    {
+      "id": "release01-0140",
+      "status": "downloaded",
+      "bytes": 463669,
+      "path": "data/raw/pdfs/nasa-uap-d2-apollo-17-transcript-1972.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0141",
+      "status": "downloaded",
+      "bytes": 29286242,
+      "path": "data/raw/pdfs/nasa-uap-d4-apollo-11-technical-crew-debriefing-1969.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0142",
+      "status": "downloaded",
+      "bytes": 212585,
+      "path": "data/raw/pdfs/nasa-uap-d5-apollo-17-crew-debriefing-for-science-1973.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0143",
+      "status": "downloaded",
+      "bytes": 513402,
+      "path": "data/raw/pdfs/nasa-uap-d6-apollo-17-technical-crew-debriefing-1973.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0144",
+      "status": "exists",
+      "bytes": 659470,
+      "path": "data/raw/pdfs/nasa-uap-d7-skylab-technical-crew-debriefing-1973.pdf"
+    },
+    {
+      "id": "release01-0145",
+      "status": "downloaded",
+      "bytes": 2526206,
+      "path": "data/raw/images/nasa-uap-vm1-apollo-12-1969.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "id": "release01-0146",
+      "status": "downloaded",
+      "bytes": 2630734,
+      "path": "data/raw/images/nasa-uap-vm2-apollo-12-1969.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "id": "release01-0147",
+      "status": "downloaded",
+      "bytes": 2534744,
+      "path": "data/raw/images/nasa-uap-vm3-apollo-12-1969.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "id": "release01-0148",
+      "status": "downloaded",
+      "bytes": 2444608,
+      "path": "data/raw/images/nasa-uap-vm4-apollo-12-1969.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "id": "release01-0149",
+      "status": "downloaded",
+      "bytes": 2590279,
+      "path": "data/raw/images/nasa-uap-vm5-apollo-12-1969.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "id": "release01-0150",
+      "status": "downloaded",
+      "bytes": 1778754,
+      "path": "data/raw/images/nasa-uap-vm6-apollo-17-1972.jpg",
+      "content_type": "image/jpeg"
+    },
+    {
+      "id": "release01-0151",
+      "status": "downloaded",
+      "bytes": 301285,
+      "path": "data/raw/pdfs/dos-uap-d1-cable-1-papua-new-guinea-january-1985.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0152",
+      "status": "downloaded",
+      "bytes": 370719,
+      "path": "data/raw/pdfs/dos-uap-d2-cable-2-kazakhstan-january-1994.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0153",
+      "status": "downloaded",
+      "bytes": 830359,
+      "path": "data/raw/pdfs/059uap00011.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0154",
+      "status": "downloaded",
+      "bytes": 656720,
+      "path": "data/raw/pdfs/059uap00012.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0155",
+      "status": "downloaded",
+      "bytes": 1221743,
+      "path": "data/raw/pdfs/059uap00013.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0156",
+      "status": "downloaded",
+      "bytes": 786792,
+      "path": "data/raw/pdfs/usper-statement-redacted.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0157",
+      "status": "downloaded",
+      "bytes": 109275,
+      "path": "data/raw/pdfs/2024-04-30-composite-sketch.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0158",
+      "status": "downloaded",
+      "bytes": 227126,
+      "path": "data/raw/pdfs/serial 5 redacted_redacted.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0159",
+      "status": "downloaded",
+      "bytes": 275673,
+      "path": "data/raw/pdfs/serial-3_redacted.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0160",
+      "status": "downloaded",
+      "bytes": 237155,
+      "path": "data/raw/pdfs/serial-4-redacted_redacted.pdf",
+      "content_type": "application/pdf"
+    },
+    {
+      "id": "release01-0161",
+      "status": "downloaded",
+      "bytes": 63463,
+      "path": "data/raw/pdfs/western_us_event_slides_5.08.2026.pdf",
+      "content_type": "application/pdf"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+display_name: WTF UFO
+short_description: Build searchable UFO/UAP release datasets from PDFs, OCR, cleaned text, and a knowledge graph.
+default_prompt: Use the wtf-ufo skill to run or validate the UFO release extraction pipeline, then produce cleaned text, RAG chunks, and graph artifacts with publication-safe outputs.
+

@@ -1,0 +1,13 @@
+{
+  "name": "ufo-archive-extraction",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "download": "node scripts/download_with_playwright.mjs",
+    "graph:view": "python3 scripts/build_graph_view.py"
+  },
+  "dependencies": {
+    "playwright": "^1.57.0"
+  }
+}
