@@ -1,27 +1,48 @@
-# UFO Archive Extraction
+# WTF UFO
 
-This project organizes the Department of War PURSUE UFO/UAP Release 01 records from `https://www.war.gov/UFO/`.
+Reproducible UFO/UAP archive extraction for the Department of War / War.gov public release.
 
-If this pipeline saves you time, star the repo so other UFO/UAP researchers can find it.
+This repository turns the official UFO release at `https://www.war.gov/UFO/` into a structured, searchable research workspace: manifests, PDF download inventory, OCR, cleaned text, RAG-ready chunks, and a lightweight knowledge graph of records, events, agencies, dates, locations, and pairings.
 
-Current local source of truth:
+If this project saves you time, please star and follow the repo so more UFO/UAP researchers, archivists, and data builders can find it.
 
-- `data/source/uap-csv.csv`: official release CSV fetched from the page.
-- `data/manifest/`: normalized record manifests generated from the CSV.
-- `data/raw/pdfs/`: downloaded PDF originals.
-- `data/extracted/`: extracted PDF text, page metadata, and embedded images.
-- `data/curated/readable/`: cleaned Markdown documents and pages for direct reading.
-- `data/curated/search/`: JSONL page/chunk indexes for search and RAG.
-- `data/curated/llm_ready/chunks.jsonl`: cleaner default LLM/RAG corpus with noisy OCR pages excluded but provenance retained.
-- `data/graph/knowledge_graph.json`: graph of release, records, events, agencies, dates, locations, and pairings.
-- `skills/wtf-ufo/`: reusable Codex skill that documents and validates the full pipeline.
+## What This Is
+
+The War.gov release includes scanned historical PDFs, images, metadata rows, and linked video records. A lot of the useful information is buried in difficult-to-search documents.
+
+`wtf-ufo` provides a repeatable pipeline to:
+
+- normalize the official release CSV into machine-readable manifests
+- download the official PDFs/images through a browser-backed downloader
+- extract embedded PDF text and embedded images
+- run OCR on scanned pages using local macOS Vision
+- merge embedded text and OCR into final page/document text
+- clean scattered OCR output into readable Markdown
+- build full and default RAG/search chunk indexes
+- generate a knowledge graph across records, events, agencies, dates, locations, and pairings
+- package the workflow as a reusable Codex skill
+
+## Repository Contents
+
+- `data/source/uap-csv.csv`: official source CSV.
+- `data/manifest/`: normalized release manifests split by record type.
+- `data/graph/knowledge_graph.json`: graph of release, records, events, agencies, locations, dates, and pairings.
+- `data/graph/knowledge_graph_view.html`: self-contained local graph viewer.
+- `data/curated/summary.md`: summary of the cleaned text layer generated locally.
+- `scripts/`: reproducible extraction, OCR, cleaning, graph, and viewer scripts.
+- `skills/wtf-ufo/`: reusable Codex skill for running and validating the workflow.
 - `docs/extraction-summary.md`: current extraction counts and caveats.
+- `docs/publishing.md`: what is included/excluded from the public repo.
+- `deploy/wtf-ufo/`: lightweight static deploy artifact for the graph view.
 
-## Run
+Large rebuildable artifacts are intentionally not committed by default: raw PDFs, extracted images, OCR text, final merged text, and full cleaned corpora.
+
+## Quick Start
 
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -r requirements.txt
+npm install
 .venv/bin/python scripts/prepare_manifest.py
 npm run download
 .venv/bin/python scripts/extract_pdfs.py
@@ -33,39 +54,145 @@ npm run graph:view
 .venv/bin/python skills/wtf-ufo/scripts/validate_wtf_ufo_project.py
 ```
 
-The official site blocks plain `curl` PDF downloads with Akamai `403`. `npm run download` uses Playwright/Chrome and page-session fetches to download the official files.
+The official site may block plain `curl` PDF downloads. `npm run download` uses Playwright/Chrome and page-session fetches to download the official files.
 
-## Visualize the graph
+## Outputs
 
-Generate the self-contained interactive graph view:
+After running the full pipeline locally, the main generated layers are:
+
+- `data/raw/`: downloaded PDFs/images.
+- `data/extracted/`: PDF text, page metadata, embedded image metadata, OCR, and final merged text.
+- `data/curated/readable/`: cleaned Markdown documents and pages for direct reading.
+- `data/curated/search/chunks.jsonl`: full cleaned search corpus.
+- `data/curated/search/chunks_default.jsonl`: cleaner default RAG corpus.
+- `data/curated/search/chunks_excluded.jsonl`: noisy/low-confidence chunks retained for audit.
+- `data/curated/llm_ready/chunks.jsonl`: default LLM/RAG input.
+- `data/curated/verbatim/pages/`: normalized verbatim evidence layer.
+- `data/graph/knowledge_graph.json`: graph data.
+- `data/graph/knowledge_graph_view.html`: local interactive graph view.
+
+## Graph Viewer
+
+Generate the self-contained graph page:
 
 ```bash
 npm run graph:view
 ```
 
-Then open `data/graph/knowledge_graph_view.html` in a browser. The page embeds `data/graph/knowledge_graph.json`, so it works from the local file system without a dev server.
+Then open:
 
-## OCR
+```text
+data/graph/knowledge_graph_view.html
+```
 
-`scripts/ocr_scanned_pages.py` uses local macOS Vision OCR for pages with little or no embedded text. Outputs are written under `data/extracted/ocr/` and can be resumed.
+The page embeds `data/graph/knowledge_graph.json`, so it works from the local file system without a dev server.
 
-## Curated Text
+## The `wtf-ufo` Skill
 
-`scripts/clean_text_for_reading.py` creates a separate LLM/search-ready layer without changing the original extracted text. The cleaner applies document-level boilerplate detection, OCR/control-character normalization, punctuation-artifact removal, low-value OCR fragment filtering, hyphenated-line repair, wrapped-line paragraph joining, and page-level provenance.
+This repo includes a reusable Codex skill at:
 
-Use `data/curated/search/chunks.jsonl` for the full cleaned corpus. Use `data/curated/search/chunks_default.jsonl` or `data/curated/llm_ready/chunks.jsonl` as the default RAG corpus when you want cleaner retrieval results.
+```text
+skills/wtf-ufo/
+```
 
-## Skill
+Use it when you want an agent to run, repair, validate, or publish the full UFO extraction workflow.
 
-The repo includes a reusable skill at `skills/wtf-ufo/`. Use it when you want an agent to run, repair, validate, or publish the full UFO extraction workflow.
+The skill is organized as:
 
-The skill keeps `SKILL.md` short and moves detailed rules into:
+```text
+skills/wtf-ufo/
+├── SKILL.md
+├── agents/openai.yaml
+├── references/
+│   ├── data-policy.md
+│   ├── github-publishing.md
+│   ├── pipeline.md
+│   └── quality-gates.md
+└── scripts/
+    └── validate_wtf_ufo_project.py
+```
 
-- `skills/wtf-ufo/references/pipeline.md`
-- `skills/wtf-ufo/references/data-policy.md`
-- `skills/wtf-ufo/references/quality-gates.md`
-- `skills/wtf-ufo/references/github-publishing.md`
+To install it locally for Codex-style skill discovery:
 
-## Publishing
+```bash
+mkdir -p ~/.codex/skills/wtf-ufo
+cp -R skills/wtf-ufo/. ~/.codex/skills/wtf-ufo/
+```
 
-The default GitHub repo should include code, docs, the skill, source CSV, manifests, and lightweight graph artifacts. It should not include raw PDFs, extracted images, OCR text, final merged text, or full curated corpora by default. See `docs/publishing.md`.
+Then ask an agent to use `wtf-ufo` for this repository. The skill will route the agent through the pipeline, data policy, quality gates, and publishing rules.
+
+## Validation
+
+Run the built-in project validator:
+
+```bash
+.venv/bin/python skills/wtf-ufo/scripts/validate_wtf_ufo_project.py
+```
+
+Expected result:
+
+```json
+{
+  "status": "ok",
+  "failures": [],
+  "warnings": []
+}
+```
+
+The validator checks the publishable project layout, manifest counts, graph linkage, and ignore policy for large rebuildable data.
+
+## Current Snapshot
+
+The local extraction run produced:
+
+- 161 official release records
+- 119 PDF records
+- 4,182 PDF pages processed
+- 4,258 embedded images indexed
+- 3,605 OCR page rows
+- 5,241 full cleaned search chunks
+- 4,012 default LLM/RAG chunks
+- 388 graph nodes
+- 736 graph edges
+- 99 event nodes
+
+See `docs/extraction-summary.md` for details.
+
+## Data Policy
+
+The public GitHub repo is intentionally a reproducible workflow and lightweight index package, not a multi-gigabyte data dump.
+
+Committed by default:
+
+- source CSV
+- manifests
+- extraction/curation summaries
+- knowledge graph JSON/viewer
+- scripts
+- `wtf-ufo` skill
+- docs
+
+Excluded by default:
+
+- raw PDFs/images
+- extracted embedded images
+- OCR text payloads
+- final merged text corpus
+- full cleaned Markdown/corpus output
+- local virtualenv and Node dependencies
+
+If you need the full corpus, run the pipeline locally from the official release source.
+
+## Follow Along
+
+If you care about UFO/UAP records, public archives, OCR, RAG datasets, or knowledge graphs, star and follow this repo:
+
+```text
+https://github.com/timfaner/wtf-ufo
+```
+
+It helps other researchers discover the workflow and makes it easier to coordinate improvements.
+
+## Caveat
+
+OCR is machine-generated from historical scans. It is useful for search, clustering, RAG, and graph construction, but direct quotations should be checked against the original PDF page.
